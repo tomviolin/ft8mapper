@@ -1,0 +1,50 @@
+in the decode.txt file, the fields are:
+
+UTC: 1-6
+Unk: 8-10
+dB: 12-15
+DT: 17-20
+Freq: 22-27
+Unkno: 29-30
+Message: 32-63
+Mod: 65-68
+
+
+UTC--- Unk dB--- DT-- Freq.-- Unkno-Message------------------------------ Mod
+
+235630  45    2   0.3   2287.   0   CP7DX WF7I FM07                       FT8
+235630  25   -2   0.4    901.   0   W4EIS KJ5CRW +09                      FT8
+235630  20   -4   0.0   2067.   0   CQ K4ZH EM79                          FT8
+235630  18   -5   0.0   1650.   0   W9ETH KI4YGV EM85                     FT8
+235630  18   -5   0.1    859.   0   CQ KI4MRC EL96                        FT8
+235630  13    0   0.1   1038.   0   DL7BO W4RXK EM74                      FT8
+235630  13   -9   0.1   2238.   0   CP7DX KD4HOU EM74                     FT8
+235630  12  -10   0.2   1296.   0   N0DOW KN4WJY RR73                     FT8
+235630   9   -7   0.1   2534.   0   KE9END K2HT EM49                      FT8
+235630   9   -8   0.0   1573.   0   KI5ZMB W4NEL -07                      FT8
+235630   6  -12   0.0   2178.   0   <...> KJ4YKG FM16                     FT8
+235630   5  -17   0.0    500.   0   WA4LXU N4GF -01                       FT8
+235630   4  -15   0.2   2360.   0   CP7DX N1TOR FN42                      FT8
+235630   2  -15   0.0   2119.   0   CQ DX N1SV FN42                       FT8
+235630   4  -13   0.0    918.   0   CQ VE9NM FN65                         FT8
+
+Console output fields are:
+
+UTC    dB   DT  Freq M  Message
+
+235630   2  0.3 2287 ~  CP7DX WF7I FM07                         
+235630  -2  0.4  901 ~  W4EIS KJ5CRW +09                        
+235630  -4  0.0 2067 ~  CQ K4ZH EM79                            
+235630  -5  0.0 1650 ~  W9ETH KI4YGV EM85                       
+235630  -5  0.1  859 ~  CQ KI4MRC EL96                          
+235630   0  0.1 1038 ~  DL7BO W4RXK EM74                        
+235630  -9  0.1 2238 ~  CP7DX KD4HOU EM74                       
+235630 -10  0.2 1296 ~  N0DOW KN4WJY RR73                       
+235630  -7  0.1 2534 ~  KE9END K2HT EM49                        
+235630  -8  0.0 1573 ~  KI5ZMB W4NEL -07                        
+235630 -12  0.0 2178 ~  <...> KJ4YKG FM16                       
+235630 -17  0.0  501 ~  WA4LXU N4GF -01                         
+235630 -15  0.2 2360 ~  CP7DX N1TOR FN42                        
+235630 -15  0.0 2119 ~  CQ DX N1SV FN42                         
+235630 -13  0.0  918 ~  CQ VE9NM FN65                           
+<DecodeFinished>   0  15        0
