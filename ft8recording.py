@@ -11,7 +11,7 @@ while datetime.now().second % 15 != 0:  # Wait until the start of the next 15 se
 
 # rtl_fm -f 7074000 -s 12000 -M usb - | 
 
-proc = subprocess.Popen(['rtl_fm', '-f', '7074000', '-s', '12000', '-M', 'usb', '-'], stdout=subprocess.PIPE)  # Use rtl_fm to capture the signal and pipe it to the script
+proc = subprocess.Popen(['rtl_fm', '-f', '28074000', '-s', '12000', '-M', 'usb', '-'], stdout=subprocess.PIPE)  # Use rtl_fm to capture the signal and pipe it to the script
 
 
 wavdata = b''
